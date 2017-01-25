@@ -1,0 +1,95 @@
+*{
+  font-family: 'Cormorant', serif;
+  font-size: 20px;
+}
+body {
+  background-color: rgb(205, 205, 205);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+nav{
+  padding: 0px 20px 0px 20px;
+}
+
+nav ul a{
+  color: black;
+  font-size: 20px;
+}
+
+nav .brand-logo {
+  color: black;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  color: black;
+  font-size: 20px;
+}
+
+.side-nav a {
+  color: black;
+  font-size: 20px;
+}
+.logo a img{
+  margin-right: 10px;
+  padding-top: 5px;
+  width: 30px;
+  height: 50px;
+}
+.carta{
+  text-align: center;
+}
+
+.carta a{
+  color: black;
+  font-size: 30px;
+}
+
+.activator{
+  height: 300px;
+}
+
+.card .card-image{
+  width: 100%;
+  height: 300px;
+}
+
+.carousel{
+  width: 100%;
+}
+
+
+.prediccion{
+  width: 100%;
+  height: 400px;
+}
+
+.prediccion img{
+  height: 0px;
+  overflow: hidden;
+  transition: height 7s;
+}
+
+.revelador{
+  border: 2px solid black;
+}
+.revelador:hover ~ .prediccion img{
+  height: 100%;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+
+
+@media (max-width: 700px) {
+  nav div .brand-logo{
+    display: none;
+  }
+  .carousel{
+    height: 100px;
+  }
+}
