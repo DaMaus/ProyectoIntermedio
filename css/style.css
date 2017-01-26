@@ -82,6 +82,14 @@ nav .brand-logo {
   border-radius: 7px;
   border: 2px solid black;
 }
+.row{
+  margin-top: 20px;
+}
+
+.panel-cartas{
+  border-radius: 7px;
+  border: 2px solid black;
+}
 
 
 
