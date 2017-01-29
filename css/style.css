@@ -90,7 +90,24 @@ nav .brand-logo {
   border-radius: 7px;
   border: 2px solid black;
 }
+.generador h3 a{
+  text-decoration: none;
+  font-size: 35px;
+  color: black;
+}
 
+.credencial{
+  margin-top: 100px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+
+.foto img{
+  margin-left: 5%;
+}
 
 
 @media (max-width: 700px) {
